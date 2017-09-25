@@ -5,6 +5,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="_ReSharper.Caches\**" />
+	  <Content Remove="_ReSharper.Caches\**" />
+	  <EmbeddedResource Remove="_ReSharper.Caches\**" />
+	  <None Remove="_ReSharper.Caches\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Folder Include="wwwroot\" />
 	</ItemGroup>
 
